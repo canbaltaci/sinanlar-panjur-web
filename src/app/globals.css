@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+:root {
+  --background: #070708;
+  --foreground: #f4f4f5;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #070708;
+    --foreground: #f4f4f5;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Subtle premium animations (motion-safe) */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatSlow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-30%);
+    opacity: 0.1;
+  }
+  40% {
+    opacity: 0.35;
+  }
+  100% {
+    transform: translateX(30%);
+    opacity: 0.1;
+  }
+}
+
+.sp-fade-up {
+  animation: fadeUp 700ms cubic-bezier(0.2, 0.9, 0.2, 1) both;
+}
+
+.sp-float {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.sp-shimmer {
+  animation: shimmer 5s ease-in-out infinite;
+}
+
+/* Scroll reveal */
+.sp-reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  filter: blur(6px);
+  transition: opacity 800ms cubic-bezier(0.2, 0.9, 0.2, 1),
+    transform 800ms cubic-bezier(0.2, 0.9, 0.2, 1),
+    filter 800ms cubic-bezier(0.2, 0.9, 0.2, 1);
+  transition-delay: var(--sp-delay, 0ms);
+}
+.sp-reveal.is-inview {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sp-reveal {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+  }
+}
