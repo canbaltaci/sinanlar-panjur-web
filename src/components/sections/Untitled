@@ -1,0 +1,143 @@
+Bu projeyi premium bir panjur ve sineklik firması web sitesine dönüştür.
+
+MARKA:
+Sinanlar Panjur & Sineklik
+
+TASARIM DİLİ:
+- Modern
+- Premium
+- Kurumsal
+- Güven veren
+- Koyu tema
+
+RENKLER:
+Background: #0F1115
+Surface: #181C23
+Primary: #C89B3C
+Text: #FFFFFF
+Secondary Text: #B8BDC7
+
+GENEL:
+- Tüm site mobil uyumlu olsun
+- Hover animasyonları ekle
+- Scroll reveal animasyonları ekle
+- Sayfa geçişleri akıcı olsun
+- Lighthouse performansı yüksek olsun
+
+HEADER:
+- Sticky header yap
+- Scroll sırasında arka plan blur olsun
+- Logo sol tarafta
+- Menü:
+  Ana Sayfa
+  Hizmetler
+  Neden Biz
+  Projeler
+  Yorumlar
+  İletişim
+- Sağ tarafta altın renkli "Teklif Al" butonu
+
+HERO:
+- Tam ekran hero
+- Arka planda premium villa görseli
+- Koyu overlay kullan
+
+Başlık:
+"İstanbul’ub Güvenilir Panjur ve Sineklik Uzmanı"
+
+Alt Başlık:
+"Otomatik Panjur, Sineklik, Garaj Kapısı ve Profesyonel Montaj Hizmetleri"
+
+CTA 1:
+"Hemen Teklif Al"
+
+CTA 2:
+"WhatsApp"
+
+İSTATİSTİKLER:
+500+
+Tamamlanan Proje
+
+10+
+Yıllık Deneyim
+
+100%
+Müşteri Memnuniyeti
+
+HİZMETLER:
+3 kart tasarla
+
+1.
+Otomatik Panjur
+
+2.
+Sineklik Sistemleri
+
+3.
+Garaj Kapıları
+
+Kartlar:
+- ikonlu
+- hover efektli
+- premium görünüm
+
+NEDEN BİZ:
+6 özellik kartı
+
+✓ Ücretsiz Keşif
+✓ Kaliteli Malzeme
+✓ Uzman Montaj
+✓ Hızlı Servis
+✓ Garanti
+✓ Uygun Fiyat
+
+PROJELER:
+- Modern galeri oluştur
+- 6 proje kartı
+- Hover zoom efekti
+- Responsive grid
+
+YORUMLAR:
+- Kart slider
+- Google yorum görünümü
+- 5 yıldız tasarımı
+
+İLETİŞİM:
+Telefon:
+0532 XXX XX XX
+
+WhatsApp:
+0532 XXX XX XX
+
+Adres:
+
+Harita alanı hazır bırak
+
+FOOTER:
+- Koyu tema
+- Sosyal medya ikonları
+- Copyright
+
+WHATSAPP BUTONU:
+- Sağ alt sabit
+- Yuvarlak
+- Pulse animasyonu
+- Altın renk kullan
+- Hover sırasında büyüsün
+
+SEO:
+- title oluştur
+- meta description oluştur
+- Open Graph ekle
+- favicon ayarla
+
+GÖRSELLER:
+Şimdilik Unsplash placeholder kullan.
+Tüm görselleri /public/images klasörüne bağla.
+Kolay değiştirilebilir yapı kur.
+
+KOD:
+- TypeScript koru
+- Component yapısını bozma
+- Clean code yaz
+- Gereksiz paket kurma

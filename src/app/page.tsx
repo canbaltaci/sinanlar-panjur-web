@@ -1,6 +1,6 @@
 import { SiteHeader } from "@/components/SiteHeader";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { Hero } from "@/components/sections/Hero";
+import  Hero  from "@/components/sections/Hero";
 import { Services } from "@/components/sections/Services";
 import { WhyUs } from "@/components/sections/WhyUs";
 import { Projects } from "@/components/sections/Projects";

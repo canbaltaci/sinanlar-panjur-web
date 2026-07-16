@@ -1,8 +1,8 @@
 export const CONTACT = {
-  phoneDisplay: "0 (5xx) xxx xx xx",
-  phoneTel: "+905xxxxxxxxx",
+  phoneDisplay: "0536 441 55 20",
+  phoneTel: "+905364415520",
   whatsappDisplay: "WhatsApp",
-  whatsappNumber: "905xxxxxxxxx",
+  whatsappNumber: "905364415520",
   addressShort: "İstanbul, Türkiye",
   email: "info@sinanlarpanjur.com",
 };
