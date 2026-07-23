@@ -1,7 +1,7 @@
 ﻿export const metadata = {
   title: "Sineklik Sistemleri | Sinanlar Panjur & Sineklik",
   description: "Pencere sineklik, kapı sineklik, plise sineklik ve katlanır sineklik modelleri. Kaliteli malzeme, profesyonel montaj ve uzun ömürlü çözümler.",
-  keywords: ["sineklik", "pencere sineklik", "kapı sineklik", "plise sineklik", "katlanır sineklik", "sineklik sistemi", "sineklik montaj", "böcek sineklik"],
+  keywords: ["sineklik", "pencere sineklik", "kapı sineklik", "plise sineklik", "katlanır sineklik", "sineklik montaj"],
 };
 
 export default function SineklikPage() {
@@ -47,14 +47,7 @@ export default function SineklikPage() {
             UV dayanımlı ve uzun yıllar sorunsuz kullanım sunuyor.
           </p>
 
-          <p className="text-gray-700 leading-relaxed mb-6">
-            Özellikle İstanbul’un nemli ve sıcak ikliminde sineklik ihtiyacı kaçınılmazdır. 
-            Biz de bu ihtiyacı en iyi şekilde karşılamak için her eve ve mekana özel ölçüler alarak 
-            profesyonel montaj hizmeti veriyoruz. Dar alanlardan geniş balkonlara kadar her türlü 
-            yapıya uygun sineklik sistemlerimiz mevcuttur.
-          </p>
-
-          <h3 className="text-2xl font-semibold mt-12 mb-6">Sineklik Çeşitlerimiz</h3>
+          <h3 className="text-3xl font-bold mt-12 mb-6 text-gray-900">Sineklik Çeşitlerimiz</h3>
           <ul className="list-disc pl-6 space-y-3 text-gray-700">
             <li><strong>Pencere Sineklikleri:</strong> Sabit ve açılır kapanır modeller</li>
             <li><strong>Kapı Sineklikleri:</strong> Mıknatıslı, raylı ve katlanır sistemler</li>
@@ -64,15 +57,11 @@ export default function SineklikPage() {
         </div>
       </section>
 
-      {/* CTA Bölümü */}
+      {/* CTA */}
       <section className="py-16 bg-gray-50 text-center">
         <div className="max-w-2xl mx-auto px-6">
           <p className="text-xl text-gray-700 mb-6">
-            Eviniz veya iş yeriniz için en uygun sineklik sistemini belirlemek ve 
-            <strong> ücretsiz keşif</strong> hizmeti almak için hemen bize ulaşın.
-          </p>
-          <p className="text-gray-600">
-            Deneyimli ekibimizle kısa sürede teklif veriyoruz.
+            Hemen teklif almak, ücretsiz keşif yaptırmak veya detaylı bilgi almak için bizimle iletişime geçin.
           </p>
         </div>
       </section>
