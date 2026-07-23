@@ -26,6 +26,34 @@ export default function Hero() {
           Kaliteli üretim • Profesyonel montaj • 15+ yıllık güvenilir hizmet
         </p>
 
+        {/* 4 Hizmet Butonu */}
+        <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+          <a
+            href="/sineklik"
+            className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-6 px-6 rounded-2xl transition-all hover:scale-105"
+          >
+            Sineklik
+          </a>
+          <a
+            href="/panjur"
+            className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-6 px-6 rounded-2xl transition-all hover:scale-105"
+          >
+            Panjur
+          </a>
+          <a
+            href="/kis-bahcesi-cam-balkon"
+            className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-6 px-6 rounded-2xl transition-all hover:scale-105"
+          >
+            Kış Bahçesi & Cam Balkon
+          </a>
+          <a
+            href="/pimapen"
+            className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-6 px-6 rounded-2xl transition-all hover:scale-105"
+          >
+            Pimapen
+          </a>
+        </div>
+
         <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-5">
 
           <a
@@ -47,20 +75,16 @@ export default function Hero() {
         </div>
 
         {/* Telefon */}
-
         <div className="mt-12">
-
           <p className="text-gray-400 text-lg">
             Hemen Arayın
           </p>
-
           <a
             href="tel:+905364415520"
             className="block mt-3 text-4xl md:text-5xl font-bold text-orange-500 hover:text-orange-400"
           >
             0536 441 55 20
           </a>
-
         </div>
 
         <div className="mt-16 text-gray-500">
