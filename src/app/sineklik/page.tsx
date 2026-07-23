@@ -1,13 +1,13 @@
 ﻿export const metadata = {
   title: "Sineklik Sistemleri | Sinanlar Panjur & Sineklik",
-  description: "Pencere, kapı, katlanır ve plise sineklik sistemleri. Böceklerden korunurken ferah bir yaşam alanı sunuyoruz.",
-  keywords: ["sineklik", "pencere sineklik", "kapı sineklik", "plise sineklik", "katlanır sineklik", "sineklik montaj istanbul"],
+  description: "Pencere sineklik, kapı sineklik, plise sineklik ve katlanır sineklik modelleri. Kaliteli malzeme, profesyonel montaj ve uzun ömürlü çözümler.",
+  keywords: ["sineklik", "pencere sineklik", "kapı sineklik", "plise sineklik", "katlanır sineklik", "sineklik sistemi", "sineklik montaj", "böcek sineklik"],
 };
 
 export default function SineklikPage() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
+      {/* Hero */}
       <section className="bg-gradient-to-br from-emerald-700 to-teal-600 text-white py-24">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Sineklik Sistemleri</h1>
@@ -15,7 +15,7 @@ export default function SineklikPage() {
         </div>
       </section>
 
-      {/* İletişim Butonları - Üstte */}
+      {/* İletişim Butonları */}
       <section className="py-10 bg-white border-b shadow-sm">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-4 justify-center items-center">
           <a href="#contact" className="bg-orange-600 hover:bg-orange-700 text-white px-10 py-4 rounded-2xl text-lg font-semibold transition">
@@ -30,26 +30,50 @@ export default function SineklikPage() {
         </div>
       </section>
 
-      {/* SEO Uyumlu Ana İçerik */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-8 text-gray-900">Kaliteli Sineklik Çözümleri</h2>
-          <p className="text-lg text-gray-700 leading-relaxed text-center mb-12">
-            Sinanlar Panjur olarak, uzun yıllardır ürettiğimiz sineklik sistemleriyle İstanbul ve çevresine hizmet veriyoruz. 
-            Pencere sineklikleri, kapı sineklikleri, plise sineklik ve katlanır modellerimizle hem güvenlik hem de estetik sunuyoruz.
+      {/* Uzun SEO İçeriği */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-6 prose prose-lg">
+          <h2 className="text-4xl font-bold text-center mb-10 text-gray-900">Sineklik Sistemleri ile Ferah ve Güvenli Yaşam Alanları</h2>
+          
+          <p className="text-gray-700 leading-relaxed mb-6">
+            Sinanlar Panjur olarak, yılların verdiği tecrübe ile ürettiğimiz sineklik sistemleri, 
+            evinizde ve iş yerinizde konforu üst seviyeye taşıyor. Özellikle yaz aylarında böcek, sinek ve haşerelerden 
+            korunmak isteyenler için en ideal çözümü sunuyoruz.
           </p>
+
+          <p className="text-gray-700 leading-relaxed mb-6">
+            Pencere sineklikleri, kapı sineklikleri, modern plise sineklik ve katlanır sineklik modellerimizle 
+            hem estetik hem de fonksiyonel çözümler üretiyoruz. Kullandığımız malzemeler yüksek kaliteli, 
+            UV dayanımlı ve uzun yıllar sorunsuz kullanım sunuyor.
+          </p>
+
+          <p className="text-gray-700 leading-relaxed mb-6">
+            Özellikle İstanbul’un nemli ve sıcak ikliminde sineklik ihtiyacı kaçınılmazdır. 
+            Biz de bu ihtiyacı en iyi şekilde karşılamak için her eve ve mekana özel ölçüler alarak 
+            profesyonel montaj hizmeti veriyoruz. Dar alanlardan geniş balkonlara kadar her türlü 
+            yapıya uygun sineklik sistemlerimiz mevcuttur.
+          </p>
+
+          <h3 className="text-2xl font-semibold mt-12 mb-6">Sineklik Çeşitlerimiz</h3>
+          <ul className="list-disc pl-6 space-y-3 text-gray-700">
+            <li><strong>Pencere Sineklikleri:</strong> Sabit ve açılır kapanır modeller</li>
+            <li><strong>Kapı Sineklikleri:</strong> Mıknatıslı, raylı ve katlanır sistemler</li>
+            <li><strong>Plise Sineklik:</strong> Modern görünüm, az yer kaplayan tasarım</li>
+            <li><strong>Katlanır Sineklik:</strong> Geniş açıklıklar için ideal çözüm</li>
+          </ul>
         </div>
       </section>
 
-      {/* CTA + Ek Bilgi */}
-      <section className="py-16 bg-white text-center">
+      {/* CTA Bölümü */}
+      <section className="py-16 bg-gray-50 text-center">
         <div className="max-w-2xl mx-auto px-6">
-          <p className="text-xl text-gray-700 mb-8">
-            Hemen teklif almak, ücretsiz keşif yaptırmak veya detaylı bilgi almak için bizimle iletişime geçin.
+          <p className="text-xl text-gray-700 mb-6">
+            Eviniz veya iş yeriniz için en uygun sineklik sistemini belirlemek ve 
+            <strong> ücretsiz keşif</strong> hizmeti almak için hemen bize ulaşın.
           </p>
-          <div className="text-sm text-gray-500">
-            📍 İstanbul • Hızlı Montaj • 2 Yıl Garanti • Uygun Fiyat
-          </div>
+          <p className="text-gray-600">
+            Deneyimli ekibimizle kısa sürede teklif veriyoruz.
+          </p>
         </div>
       </section>
     </div>
