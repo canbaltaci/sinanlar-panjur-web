@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Pimapen PVC Kapı ve Pencere | Sinanlar",
   description: "Yüksek kaliteli Pimapen PVC kapı, pencere ve doğrama sistemleri. Isı yalıtımı, ses yalıtımı ve modern tasarım.",
-  keywords: ["pimapen", "pvc pencere", "pvc kapı", "pimapen montaj", "ısı yalıtımlı pencere"],
+  keywords: ["pimapen", "pvc pencere", "pvc kapı", "pimapen montaj"],
 };
 
 export default function PimapenPage() {
@@ -30,7 +30,7 @@ export default function PimapenPage() {
         </div>
       </section>
 
-      {/* SEO Uyumlu Uzun İçerik */}
+      {/* SEO İçerik */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6 prose prose-lg">
           <h2 className="text-4xl font-bold text-center mb-10 text-gray-900">Pimapen PVC Kapı ve Pencere Sistemleri</h2>
@@ -39,12 +39,6 @@ export default function PimapenPage() {
             Sinanlar Panjur olarak yüksek kaliteli Pimapen PVC kapı, pencere ve doğrama sistemleri sunuyoruz. 
             Isı yalıtımı, ses yalıtımı ve modern tasarımı bir araya getiren çözümlerimizle 
             evinizin konforunu ve enerji verimliliğini artırıyoruz.
-          </p>
-
-          <p className="text-gray-700 leading-relaxed mb-6">
-            Pimapen profilleri uzun yıllardır güvenle kullanılan, dayanıklı ve estetik ürünlerdir. 
-            Profesyonel ölçüm ve montaj ekibimizle her mekana özel çözümler üretiyor, 
-            kaliteli malzeme ve işçilikle uzun ömürlü sonuçlar elde ediyoruz.
           </p>
 
           <h3 className="text-3xl font-bold mt-12 mb-6 text-gray-900">Pimapen Avantajları</h3>
@@ -57,11 +51,35 @@ export default function PimapenPage() {
         </div>
       </section>
 
+      {/* Galeri */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Pimapen Uygulamalarımız</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <img 
+              src="/images/pimapen1.jpg" 
+              alt="Pimapen örneği 1" 
+              className="w-full h-64 object-cover rounded-2xl shadow-md"
+            />
+            <img 
+              src="/images/pimapen2.png" 
+              alt="Pimapen örneği 2" 
+              className="w-full h-64 object-cover rounded-2xl shadow-md"
+            />
+            <img 
+              src="/images/pimapen3.png" 
+              alt="Pimapen örneği 3" 
+              className="w-full h-64 object-cover rounded-2xl shadow-md"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
-      <section className="py-16 bg-gray-50 text-center">
+      <section className="py-16 bg-white text-center">
         <div className="max-w-2xl mx-auto px-6">
           <p className="text-xl text-gray-700 mb-6">
-            Eviniz için en uygun Pimapen çözümünü belirlemek ve ücretsiz keşif yaptırmak için hemen bize ulaşın.
+            Eviniz için en uygun Pimapen çözümünü belirlemek için hemen bize ulaşın.
           </p>
         </div>
       </section>

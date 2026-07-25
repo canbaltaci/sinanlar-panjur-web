@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Kış Bahçesi ve Cam Balkon | Sinanlar Panjur",
   description: "Kış bahçesi, cam balkon, katlanır ve sürgülü cam sistemleri. Modern, kullanışlı ve estetik çözümler.",
-  keywords: ["kış bahçesi", "cam balkon", "katlanır cam balkon", "sürgülü cam sistem", "kış bahçesi montaj"],
+  keywords: ["kış bahçesi", "cam balkon", "katlanır cam balkon", "sürgülü cam sistem"],
 };
 
 export default function KisBahcesiCamBalkonPage() {
@@ -30,7 +30,7 @@ export default function KisBahcesiCamBalkonPage() {
         </div>
       </section>
 
-      {/* SEO Uyumlu Uzun İçerik */}
+      {/* SEO İçerik */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6 prose prose-lg">
           <h2 className="text-4xl font-bold text-center mb-10 text-gray-900">Kış Bahçesi ve Cam Balkon Sistemleri</h2>
@@ -42,9 +42,7 @@ export default function KisBahcesiCamBalkonPage() {
 
           <p className="text-gray-700 leading-relaxed mb-6">
             Cam balkon sistemleri sayesinde balkonunuz yağmur, rüzgar ve soğuk havadan korunurken, 
-            istenildiğinde tamamen açılabilir hale gelir. Kış bahçesi uygulamalarımız ise evinize 
-            ferah, aydınlık ve kullanışlı ek alanlar katar. Kaliteli cam ve alüminyum profillerle 
-            uzun ömürlü ve estetik çözümler üretiyoruz.
+            istenildiğinde tamamen açılabilir hale gelir.
           </p>
 
           <h3 className="text-3xl font-bold mt-12 mb-6 text-gray-900">Hizmet Çeşitlerimiz</h3>
@@ -56,12 +54,35 @@ export default function KisBahcesiCamBalkonPage() {
         </div>
       </section>
 
+      {/* Galeri */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Kış Bahçesi & Cam Balkon Uygulamalarımız</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <img 
+              src="/images/cambalkon1.jpg" 
+              alt="Cam balkon örneği 1" 
+              className="w-full h-64 object-cover rounded-2xl shadow-md"
+            />
+            <img 
+              src="/images/cambalkon2.png" 
+              alt="Cam balkon örneği 2" 
+              className="w-full h-64 object-cover rounded-2xl shadow-md"
+            />
+            <img 
+              src="/images/kis-bahcesi1.webp" 
+              alt="Kış bahçesi örneği" 
+              className="w-full h-64 object-cover rounded-2xl shadow-md"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
-      <section className="py-16 bg-gray-50 text-center">
+      <section className="py-16 bg-white text-center">
         <div className="max-w-2xl mx-auto px-6">
           <p className="text-xl text-gray-700 mb-6">
-            Evinize ekstra yaşam alanı kazandırmak için hemen bizimle iletişime geçin. 
-            Ücretsiz keşif ve teklif için hazırız.
+            Evinize ekstra yaşam alanı kazandırmak için hemen bizimle iletişime geçin.
           </p>
         </div>
       </section>

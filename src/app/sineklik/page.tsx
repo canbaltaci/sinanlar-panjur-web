@@ -30,7 +30,7 @@ export default function SineklikPage() {
         </div>
       </section>
 
-      {/* Uzun SEO İçeriği */}
+      {/* SEO Uyumlu Uzun İçerik */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6 prose prose-lg">
           <h2 className="text-4xl font-bold text-center mb-10 text-gray-900">Sineklik Sistemleri ile Ferah ve Güvenli Yaşam Alanları</h2>
@@ -57,8 +57,35 @@ export default function SineklikPage() {
         </div>
       </section>
 
+      {/* Galeri */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
+            Sineklik Uygulamalarımız
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <img 
+              src="/images/sineklik1.png" 
+              alt="Sineklik örneği 1" 
+              className="w-full h-64 object-cover rounded-2xl shadow-md"
+            />
+            <img 
+              src="/images/sineklik2.jpeg" 
+              alt="Sineklik örneği 2" 
+              className="w-full h-64 object-cover rounded-2xl shadow-md"
+            />
+            <img 
+              src="/images/sineklik3.jpeg" 
+              alt="Sineklik örneği 3" 
+              className="w-full h-64 object-cover rounded-2xl shadow-md"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
-      <section className="py-16 bg-gray-50 text-center">
+      <section className="py-16 bg-white text-center">
         <div className="max-w-2xl mx-auto px-6">
           <p className="text-xl text-gray-700 mb-6">
             Hemen teklif almak, ücretsiz keşif yaptırmak veya detaylı bilgi almak için bizimle iletişime geçin.

@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Panjur Sistemleri | Sinanlar Panjur & Sineklik",
   description: "Alüminyum panjur, kepenk ve otomatik panjur sistemleri. Kaliteli üretim, profesyonel montaj ve güvenilir çözümler.",
-  keywords: ["panjur", "alüminyum panjur", "otomatik panjur", "kepenk", "güvenlik panjuru", "panjur montaj"],
+  keywords: ["panjur", "alüminyum panjur", "otomatik panjur", "kepenk", "güvenlik panjuru"],
 };
 
 export default function PanjurPage() {
@@ -30,20 +30,19 @@ export default function PanjurPage() {
         </div>
       </section>
 
-      {/* SEO Uyumlu Uzun İçerik */}
+      {/* SEO İçerik */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6 prose prose-lg">
           <h2 className="text-4xl font-bold text-center mb-10 text-gray-900">Panjur ve Kepenk Sistemleri</h2>
           
           <p className="text-gray-700 leading-relaxed mb-6">
             Sinanlar Panjur olarak alüminyum panjur, kepenk ve otomatik panjur sistemlerinde uzmanlaşmış bir firmayız. 
-            Eviniz, dükkanınız veya iş yeriniz için en güvenli ve estetik çözümleri sunuyoruz. 
-            Dayanıklı malzemeler ve profesyonel montaj ile uzun yıllar sorunsuz kullanım sağlıyoruz.
+            Eviniz, dükkanınız veya iş yeriniz için en güvenli ve estetik çözümleri sunuyoruz.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            Özellikle güvenlik ihtiyacının yüksek olduğu bölgelerde panjur sistemleri büyük önem taşımaktadır. 
-            Kaliteli alüminyum profiller, güçlü motor sistemleri ve modern tasarımlarımızla hem güvenlik hem de konfor sunuyoruz.
+            Dayanıklı alüminyum profiller, güçlü motor sistemleri ve modern tasarımlarımızla 
+            uzun yıllar sorunsuz kullanım sağlıyoruz.
           </p>
 
           <h3 className="text-3xl font-bold mt-12 mb-6 text-gray-900">Panjur Çeşitlerimiz</h3>
@@ -55,8 +54,27 @@ export default function PanjurPage() {
         </div>
       </section>
 
+      {/* Galeri */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Panjur Uygulamalarımız</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <img 
+              src="/images/panjur1.jpeg" 
+              alt="Panjur örneği" 
+              className="w-full h-72 object-cover rounded-2xl shadow-md"
+            />
+            <img 
+              src="/images/hero-panjur.jpg" 
+              alt="Panjur uygulaması" 
+              className="w-full h-72 object-cover rounded-2xl shadow-md"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
-      <section className="py-16 bg-gray-50 text-center">
+      <section className="py-16 bg-white text-center">
         <div className="max-w-2xl mx-auto px-6">
           <p className="text-xl text-gray-700 mb-6">
             Güvenlik ve konfor için en uygun panjur sistemini seçmek için hemen bizimle iletişime geçin.
