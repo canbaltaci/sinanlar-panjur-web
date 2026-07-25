@@ -57,16 +57,19 @@ export default function PanjurPage() {
       {/* Galeri */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Panjur Uygulamalarımız</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
+            Panjur Uygulamalarımız
+          </h2>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <img 
               src="/images/panjur1.jpeg" 
-              alt="Panjur örneği" 
+              alt="Panjur örneği 1" 
               className="w-full h-72 object-cover rounded-2xl shadow-md"
             />
             <img 
-              src="/images/hero-panjur.jpg" 
-              alt="Panjur uygulaması" 
+              src="/images/panjur1.jpeg" 
+              alt="Panjur örneği 2" 
               className="w-full h-72 object-cover rounded-2xl shadow-md"
             />
           </div>
