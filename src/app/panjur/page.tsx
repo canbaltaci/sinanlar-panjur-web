@@ -68,7 +68,7 @@ export default function PanjurPage() {
               className="w-full h-72 object-cover rounded-2xl shadow-md"
             />
             <img 
-              src="/images/panjur1.jpeg" 
+              src="/images/panjur2.jpg" 
               alt="Panjur örneği 2" 
               className="w-full h-72 object-cover rounded-2xl shadow-md"
             />
